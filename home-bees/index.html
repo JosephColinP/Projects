@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeBees</title>
+    <link rel="stylesheet" href="css/nav-styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/layout.css"/>
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html"
+            class="a-logo">
+            <picture>
+              <source media="(min-width: 768px) and (max-width: 990px)"
+              srcset="img/logo2.png">
+              <img class="logo" 
+                src="img/logo.png" 
+                alt="Logo"/>
+            </picture>
+        </a>
+        
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="#" >
+                Services
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="#">
+                Why HomeBees
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="locations.html">
+                Locations
+            </a>
+          </li>
+          <li class="nav-menu-item" id="gafq">
+            <a class="nav-menu-link nav-link nav-menu-link_active"
+              href="get-a-free-quote.html">
+                Get a Free Quote
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section
+        class="max-width mobile-center font-uppercase phone-number row1">
+        <p>Call or text 888-508-2337 (Bees)</p>
+      </section>
+
+      <section class="max-width mobile-center banner-img row2">
+        <div class="mobile-center mobile-flex-column banner-info">
+          <div class="banner-text">
+            <h1 class="banner-title">Home maintenance,<br />Simplified.</h1>
+          </div>
+          <div class="mobile-center mobile-flex-column banner-button">
+            <a href="get-a-free-quote.html">
+              <button class="button-quote">
+                Learn More
+              </button>
+            </a>
+            <p class="font-uppercase banner-contact">
+              Call or text for a free quote<br/><b style="color: #247ba0">888-508-2337 (Bees)</b>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-width services-box row3">
+        <div
+          class="mobile-center mobile-flex-column services-info row1">
+          <p class="titles">
+            Services<br /><b>HomeBees Keeps your hive in tip-top shapes</b>
+          </p>
+          <a href="get-a-free-quote.html">
+            <button class="button-quote">
+              Get a Free Quotes
+            </button>
+          </a>
+        </div>
+
+        <div class="services-img-box box1">
+          <img class="services-img" src="img/grid-image.png" alt="window"/>
+          <div class="flex-center services-text">Window Washing</div>
+        </div>
+
+        <div class="services-img-box box2">
+          <img class="services-img" src="img/service-2.png" alt="gutter"/>
+          <div class="flex-center services-text">Gutter Cleaning</div>
+        </div>
+
+        <div class="services-img-box box3">
+          <img class="services-img" src="img/service-3.png " alt="washing"/>
+          <div class="flex-center services-text">Power and Soft Washing</div>
+        </div>
+
+        <div class="services-img-box box4">
+          <img class="services-img" src="img/service-4.png" alt="window"/>
+          <div class="flex-center services-text">Dryer Vent Cleaning</div>
+        </div>
+
+        <div class="services-img-box box5">
+          <img class="services-img" src="img/service-5.png" alt="gutter"/>
+          <div class="flex-center services-text">Chimey Sweeping</div>
+        </div>
+
+        <div class="services-img-box box6">
+          <img class="services-img" src="img/service-6.png " alt="washing"/>
+          <div class="flex-center services-text">Septic Pumping</div>
+        </div>
+
+        <div class="services-img-box box7">
+          <img class="services-img" src="img/service-7.png" alt="window"/>
+          <div class="flex-center services-text">Diveway Sealing</div>
+        </div>
+
+        <div class="services-img-box box8">
+          <img class="services-img" src="img/service-8.png" alt="gutter"/>
+          <div class="flex-center services-text">Mosquito & Tick Spraying</div>
+        </div>
+
+        <div class="services-img-box box9">
+          <img
+            class="services-img grill"
+            src="img/service-9.png "
+            alt="washing"
+          />
+          <div class="flex-center services-text">SBBQ Grill Cleaning</div>
+        </div>
+      </section>
+
+      <section class="max-width mobile-flex-column why-homebees-box row4">
+        <div class="flex-center why-hombees-title row1">
+          <p class="titles">why homebees <br /><b>How it Works</b></p>
+        </div>
+
+        <div class="why-hombees-boxes row2">
+          <div class="flex-center why-homebees-img">1</div>
+          <p>
+            Your local HomeBees AmBeesador will visit your home in-person, or
+            virtually via video call, to assess and estimate your project.
+          </p>
+        </div>
+
+        <div class="why-hombees-boxes row2">
+          <div class="flex-center why-homebees-img">2</div>
+          <p>
+            if you choose HomeBees, your project is then scheduled with a
+            HomeBees service pro partner.
+          </p>
+        </div>
+
+        <div class="why-hombees-boxes row2">
+          <div class="flex-center why-homebees-img">3</div>
+          <p>
+            Our professional, courteous and trained service pro partner will
+            complete the project on time and on budget.
+          </p>
+        </div>
+
+        <div class="why-hombees-boxes row2">
+          <div class="flex-center why-homebees-img">4</div>
+          <p>
+            When the project is completed 100% to your satisfaction, you pay
+            HomeBees.
+          </p>
+        </div>
+      </section>
+
+      <section class="flex-center max-width get-a-free-quote row5">
+        <a href="get-a-free-quote.html">
+          <button class="button-quote">Get a Free Quotes</button>
+        </a>
+      </section>
+
+      <section class="max-width homebees-info row6">
+        <div class="column1 row1 caja1">
+          <img
+            class="mobile-width-100 homebees-img"
+            src="img/services.png"
+            alt="Image"
+          />
+        </div>
+
+        <div class="column2 row1 caja2 mobile-width-100 homebees-info-text-box">
+          <div class="mobile-flex-column homebees-info-text">
+            <h1>Simple & Easy</h1>
+            <p>&nbsp;</p>
+            <p>
+              You're busy and you have so many other things to do, but it's
+              important to protect the most valuable asset: your home. When you
+              need window cleaning, pressure washing or gutter cleaning, and any
+              other number of
+              <b style="color: #247ba0">services for your home</b>, look no
+              futher than HomeBees
+            </p>
+            <p>&nbsp;</p>
+            <p>
+              All services are scheduled for a specific time, and you don't even
+              need to be home for us to get the job done right!
+            </p>
+            <p>&nbsp;</p>
+            <div class="homebees-info-link">
+              <a class="font-uppercase get-a-free-text"
+                href="get-a-free-quote.html">
+                  get a free quote
+              </a>
+              <a href="get-a-free-quote.html">
+                <img src="img/next.png" alt="polygon" class="next-icon"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="column1 row2 caja4 mobile-width-100 homebees-info-text-box move-right">
+          <div class="mobile-flex-column homebees-info-text">
+            <h1>Trusted Relationship</h1>
+            <p>&nbsp;</p>
+            <p>
+              Your HomeBees AmBeesador is the next best thing your ownpersonal
+              caretaker.
+            </p>
+            <p>&nbsp;</p>
+            <p>
+              They are dedicated yo getting know you and your home, and being a
+              trusted resource to help keep hive in tip-top shape.
+            </p>
+            <p>&nbsp;</p>
+            <div class="homebees-info-link">
+              <a class="font-uppercase get-a-free-text"
+                href="get-a-free-quote.html">
+                  get a free quote
+              </a>
+              <a href="get-a-free-quote.html">
+                <img src="img/next.png" alt="polygon" class="next-icon"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column2 row2 caja3">
+          <img
+            class="mobile-width-100 homebees-img"
+            src="img/shake-hands.png"
+            alt="Image"
+          />
+        </div>
+
+        <div class="column1 row3 caja5">
+          <img
+            class="mobile-width-100 homebees-img"
+            src="img/newest-tech.png"
+            alt="Image"
+          />
+        </div>
+
+        <div class="column2 row3 caja6 mobile-width-100 homebees-info-text-box">
+          <div class="mobile-flex-column homebees-info-text">
+            <h1>Newest Technology</h1>
+            <p>&nbsp;</p>
+            <p>
+              Our certified Pro partners use the lastest cleaning tools to
+              ensure quick, thorough and safe service. Equipment like wate-fed
+              poles, filtration systems and gutter vacuums ensure that we
+              complete our work safely with minimal ladder use and that we leave
+              your home positively shiny every time.
+            </p>
+            <p>&nbsp;</p>
+            <div class="homebees-info-link">
+              <a class="font-uppercase get-a-free-text"
+                href="get-a-free-quote.html">
+                  get a free quote
+              </a>
+              <a href="get-a-free-quote.html">
+                <img src="img/next.png" alt="polygon" class="next-icon"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="column1 row4 caja8 mobile-width-100 homebees-info-text-box move-right">
+          <div class="mobile-flex-column homebees-info-text">
+            <h1>Annual Maintenance Program</h1>
+            <p>&nbsp;</p>
+            <p>
+              With HomeBee's annual maintenance program we'll proactively take
+              care of your home's maintenance. So you can remove that from your
+              to-do list.
+            </p>
+            <p>&nbsp;</p>
+            <div class="homebees-info-link">
+              <a class="font-uppercase get-a-free-text"
+                href="get-a-free-quote.html">
+                  get a free quote
+              </a>
+              <a href="get-a-free-quote.html">
+                <img src="img/next.png" alt="polygon" class="next-icon"/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column2 row4 caja7">
+          <img
+            class="mobile-width-100 homebees-img"
+            src="img/annual.png"
+            alt="Image"
+          />
+        </div>
+      </section>
+
+      <section
+        class="max-width mobile-center mobile-flex-column bee-carefree-box row7">
+        <div class="flex-center bee-carefree-title row1">
+          <p class="titles">bee carefree <br /><b>What You Can Expect</b></p>
+        </div>
+        <div class="font-uppercase bee-carefree-text-box column1 row2">
+          <img class="bee-carefree-img" src="img/bee.png" alt="Image" />
+          <p class="flex-center bee-carefree-text">dedicated ambeesador</p>
+        </div>
+        <div class="font-uppercase bee-carefree-text-box column2 row2">
+          <img class="bee-carefree-img" src="img/worker.png" alt="Image" />
+          <p class="flex-center bee-carefree-text">friendly, trained pros</p>
+        </div>
+        <div class="font-uppercase bee-carefree-text-box column3 row2">
+          <img class="bee-carefree-img" src="img/chat.png" alt="Image" />
+          <p class="flex-center bee-carefree-text">exceptional communication</p>
+        </div>
+        <div class="font-uppercase bee-carefree-text-box column4 row2">
+          <img class="bee-carefree-img" src="img/time.png" alt="Image" />
+          <p class="flex-center bee-carefree-text">
+            jobs that start and finish on time
+          </p>
+        </div>
+      </section>
+
+      <section class="max-width mobile-flex-column widget row8">
+        <div class="widget-box column1">
+          <img src="img/your-home-will-thank-you.png" class="widget-img" />
+        </div>
+
+        <div class="widget-box column2 row1">
+          <img src="img/locations.png" class="widget-img" />
+        </div>
+
+        <div class="widget-box schedule-a-quote">
+          <img src="img/schedule-a-quote.png" class="widget-img" />
+        </div>
+      </section>
+
+      <section class="max-width mobile-flex-column bee-good row9">
+        <div class="flex-center bee-good-text-box column1">
+          <p class="titles">bee good <br /><b>What You Can Expect</b></p>
+          <p>&nbsp;</p>
+          <p>
+            HomeBees donates 5% of net profits to the Bee Conservancy - a
+            nonprofit dedicated to protecting Bees, safeguarding the environment
+            and securing food justice through education, research, habitat
+            creation, and advocacy.
+          </p>
+        </div>
+        <div class="flex-center mobile-width-100 bee-good-img-box column2">
+          <img
+            src="img/the-bee-conservancy.png"
+            alt="Image"
+            class="bee-good-img"
+          />
+        </div>
+      </section>
+
+      <section class="max-width book-today">
+        <p class="book-today-text">
+          Book Today<br />
+          Call or Text 888-508-2337 (BEES)
+        </p>
+      </section>
+    </main>
+
+    <footer class="max-width footer">
+      <img src="img/logo-white.png" alt="logo" />
+      <ul class="footer-ul">
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="#">
+              Services
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="#">
+              Why HomeBees
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="locations.html">
+              Locations
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="get-a-free-quote.html">
+              Get a Free Quote
+          </a>
+        </li>
+      </ul>
+      <div class="footer-logos-box">
+        <img class="footer-logos" src="icons/logo-instagram.png" />
+        <img class="footer-logos" src="icons/logo-facebook.png" />
+        <img class="footer-logos" src="icons/logo-linkedin.png" />
+      </div>
+      <p class="footer-text">2021 HomeBees | <a href="#">Privacy Policy</a></p>
+    </footer>
+  </body>
+</html>

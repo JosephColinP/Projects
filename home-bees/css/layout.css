@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-top: 80px;
+  text-align: justify;
+  width: 100%;
+}
+
+.max-width {
+  max-width: 1449px;
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  place-content: center;
+  place-items: center;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/nav-styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/locations.css" />
+    <link rel="stylesheet" href="css/layout.css"/>
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html"
+            class="a-logo">
+            <picture>
+              <source media="(min-width: 768px) and (max-width: 990px)"
+              srcset="img/logo2.png">
+              <img class="logo" 
+                src="img/logo.png" 
+                alt="Logo"/>
+            </picture>
+        </a>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="#">
+                Services
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="#">
+                Why HomeBees
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" 
+              href="locations.html" >
+                Locations
+            </a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link nav-menu-link_active"
+              href="get-a-free-quote.html">
+                Get a Free Quote
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="max-width flex-center locations-title">
+        <h1>Locations</h1>
+      </section>
+
+      <section class="max-width flex-center location-box">
+        <div class="location-boxes">
+          <div class="row-text row1">
+            <p>
+              We currently service homeowners resifing in the following essex
+              country town:
+            </p>
+          </div>
+          <div class="location-box-list row2">
+              <p>Beverly</p>
+              <p>Boxford</p>
+              <p>Danvers</p>
+              <p>Essex</p>
+              <p>Gloycester</p>
+              <p>Hamilton</p>
+              <p>Ipswich</p>
+              <p>Lynnfield</p>
+              <p>Manchester</p>
+              <p>Marblehead</p>
+              <p>Middleton</li>
+              <p>Newbury</li>
+              <p>Newbury port</li>
+              <p>North Reading</p>
+              <p>Peabody</p>
+              <p>Rockport</p>
+              <p>Rowley</p>
+              <p>Salem</p>
+              <p>Topsfield</p>
+              <p>Wenham</p>
+          </div>
+          <div class="button-box row3">
+            <a href="get-a-free-quote.html">
+              <button class="button-quote">
+                Learn More
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-width book-today">
+        <p class="book-today-text">
+          Book Today<br />
+          Call or Text 888-508-2337 (BEES)
+        </p>
+      </section>
+    </main>
+
+    <footer class="max-width footer">
+      <img src="img/logo-white.png" alt="logo" />
+      <ul class="footer-ul">
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="#">
+              Services
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="#">
+              Why HomeBees
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="locations.html">
+              Locations
+          </a>
+        </li>
+        <li class="footer-li">
+          <a class="footer-link" 
+            href="get-a-free-quote.html">
+              Get a Free Quote
+          </a>
+        </li>
+      </ul>
+      <div class="footer-logos-box">
+        <img class="footer-logos" src="icons/logo-instagram.png" />
+        <img class="footer-logos" src="icons/logo-facebook.png" />
+        <img class="footer-logos" src="icons/logo-linkedin.png" />
+      </div>
+      <p class="footer-text">2021 HomeBees | <a href="#">Privacy Policy</a></p>
+    </footer>
+  </body>
+</html>
