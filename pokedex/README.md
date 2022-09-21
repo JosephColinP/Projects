@@ -6,6 +6,21 @@ Se pidió desarollarlo con javascript y utilizar cualquier librería, así como 
 
 Por lo anterior el proyecto fue realizado con webpack y bootstrap.
 
+
+## Preview
+
+
+### Desktop
+![Desktop Preview](/src/assets/desktop-view.png)
+
+
+
+### Mobile
+![Mobile Preview](/src/assets/mobile-view.png)
+
+
+
+
 ## Instalation
 
 Primero se tendrá que clonar el repositorio. Se puede hacer desde el siguiente link:
