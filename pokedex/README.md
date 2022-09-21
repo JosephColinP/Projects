@@ -7,3 +7,48 @@ Se pidió desarollarlo con javascript y utilizar cualquier librería, así como 
 Por lo anterior el proyecto fue realizado con webpack y bootstrap.
 
 ## Instalation
+
+clonar el repositorio
+
+```
+git clone https://github.com/JosephColinP/Projects.git
+```
+
+Existen dos carpetas actualmente, la carpeta del proyecto es "pokedex" por lo que entraremos a esta. La otra carpeta (home-bees) se puede borrar sin ningún problema.
+
+```
+cd Projects/pokedex/
+```
+
+Posteriormente se tiene que configurar el proyecto. Primero se tienen que instalar todos los paquetes de node.
+
+```
+npm i
+```
+
+Luego construir el projecto.
+
+```
+npm run build
+```
+
+Por último se tendrá que arrancar el servidor.
+
+```
+npm run start
+```
+
+
+## Consideraciones
+
+
+### env var
+
+Normalmente las variables de entorno no se tienen que mostrar. Decidí omitirlo en el archivo .gitignore ya que por esta ocaciones es una API pública, así que no importa si se muestra o no.
+
+
+### updates
+
+Puede que al momento de ver este proyecto muchos paquetes estén desactualizados o el mismo node. Entonces se recomienda actualizar todo para una correcta ejecución.
+
+
