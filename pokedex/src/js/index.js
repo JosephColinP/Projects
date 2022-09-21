@@ -88,7 +88,7 @@ const showData = async function () {
 
 const repeatShowData = function () {
   showData();
-  setInterval(showData, 10000);
+  setInterval(showData, 30000);
 };
 
 repeatShowData();
