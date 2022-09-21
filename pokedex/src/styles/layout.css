@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-align: justify;
+  width: 100%;
+}
+
+header {
+  background-color: #0c3348;
+  border-bottom: 0.5px solid #000;
+  box-shadow: 10px 0px 10px !important;
+}
+
+main {
+  background-attachment: fixed;
+  background-color: #ffcc00;
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: #0c3348;
+  min-height: 80px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 0px;
+  padding: 5px;
+  text-align: justify;
+}

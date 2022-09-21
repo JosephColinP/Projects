@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+  </head>
+  <body class="d-flex flex-column justify-content-center">
+    <header class="container-fluid shadow">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand p-0" href="#">
+            <img
+              src="./images/International_Pokémon_logo.png"
+              alt="logo"
+              id="pokeLogo"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Anime</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Manga</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                id="searchBtn"
+                class="btn btn-outline-success"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="d-flex flex-column justify-content-center">
+      <section
+        id="pokemonSection"
+        class="container-lg d-flex align-items-center justify-content-center"
+      >
+        <div
+          id="pokedex"
+          class="d-flex flex-column justify-content-center shadow"
+        >
+          <div id="pokedexData"></div>
+          <div class="d-flex justify-content-center align-items-center">
+            <button id="changeBtn" class="btn btn-secondary mb-2 p-2 w-75">
+              Change Pokemon
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid"></footer>
+  </body>
+</html>

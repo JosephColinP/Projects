@@ -1,0 +1,55 @@
+@import "./reset.css";
+@import "./layout.css";
+
+nav div ul li a {
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+#pokeLogo {
+  width: 200px;
+}
+
+#searchBtn {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#searchBtn:hover {
+  background-color: #ffcc00;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+#pokemonSection {
+  min-height: 100vh;
+}
+
+#pokemonSection h2 {
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#pokedex {
+  background-color: #ce2211;
+  border-radius: 8px;
+  border: 1px solid #000;
+  min-height: 450px;
+  min-width: 350px;
+  padding: 10px;
+}
+
+.pokeBox {
+  height: 13rem !important;
+}
+
+p.pokeBox {
+  text-align: left !important;
+}
