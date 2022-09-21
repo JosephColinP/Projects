@@ -8,29 +8,35 @@ Por lo anterior el proyecto fue realizado con webpack y bootstrap.
 
 ## Instalation
 
-clonar el repositorio
+Primero se tendrá que clonar el repositorio. Se puede hacer desde el siguiente link:
 
 ```
 git clone https://github.com/JosephColinP/Projects.git
 ```
 
-Existen dos carpetas actualmente, la carpeta del proyecto es "pokedex" por lo que entraremos a esta. La otra carpeta (home-bees) se puede borrar sin ningún problema.
+
+Una vez clonado existen dos carpetas, al momento de escribir esto, la carpeta del proyecto solicitado es "pokedex" por lo que entraremos a esta. 
 
 ```
 cd Projects/pokedex/
 ```
 
-Posteriormente se tiene que configurar el proyecto. Primero se tienen que instalar todos los paquetes de node.
+*Nota: La otra carpeta se llama home-bees, esta puede ser eliminada ya que solo era un proyecto de práctica con solo css.*
+
+
+Posteriormente se tiene que configurar el proyecto. Primero se tienen que instalar todos los paquetes de node:
 
 ```
 npm i
 ```
 
-Luego construir el projecto.
+
+Luego se tendrá que construir el proyecto.
 
 ```
 npm run build
 ```
+
 
 Por último se tendrá que arrancar el servidor.
 
