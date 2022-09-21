@@ -11,12 +11,12 @@ Por lo anterior el proyecto fue realizado con webpack y bootstrap.
 
 
 ### Desktop
-![Desktop Preview](/src/assets/desktop-view.png)
+![Desktop Preview](https://github.com/JosephColinP/Projects/blob/main/pokedex/src/assests/desktop-view.png)
 
 
 
 ### Mobile
-![Mobile Preview](/src/assets/mobile-view.png)
+![Mobile Preview](https://github.com/JosephColinP/Projects/blob/main/pokedex/src/assests/mobile-view.png)
 
 
 
